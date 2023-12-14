@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+html,
+body,
+#root {
+  @apply w-full h-full;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  @apply bg-gray-800 text-white;
+}
